@@ -1,4 +1,4 @@
-Pod::Spec.new do |s|
+4Pod::Spec.new do |s|
   s.name             = 'ParseLiveQuery'
   s.version          = '2.0.0'
   s.license          =  { :type => 'BSD' }
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/ParseLiveQuery/**/*.{swift,h}'
   s.module_name = 'ParseLiveQuery'
   
-  s.dependency 'Parse', '~> 1.14.2'
+  s.dependency 'Parse', '~> 1.14.4'
   s.dependency 'Bolts-Swift', '~> 1.3'
-  s.dependency 'Starscream', '2.0.3'
+  s.dependency 'Starscream', '2.0.4'
 end
